@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 15fr 8fr 4fr 3fr 3fr 1fr;
+      grid-template-rows: 1fr 3fr 4fr 8fr 6fr 3fr 6fr 7fr 4fr 2fr;
+      gap: 7px;
+      background-color: #232629;
+      height: 100%;
+      width: 40%;
+    }
+
+    .yellow {
+      background-color: #F9D01E
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .red {
+      background-color: #E72F24;
+    }
+
+    .black{
+      background-color: #232629;
+    }
+
+    .blue{
+      background-color: #004592;
+    }
+
+    .grey{
+      background-color: #e7e2e3;
+    }
+
+    .blue.number_1 {
+      grid-row: span 2;
+    }
+
+    .blue.number_2 {
+      grid-column: span 2;
+    }
+
+    .black.number_1 {
+      grid-row: span 2;
+    }
+
+    .black.number_2 {
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+
+    .black.number_3 {
+      grid-row: span 2;
+    }
+
+    .yellow.number_1 {
+      grid-row: span 3;
+    }
+
+    .yellow.number_2 {
+      grid-column: span 3;
+      grid-row: span 2;
+    }
+
+    .yellow.number_3 {
+      grid-column: span 3;
+    }
+
+    .white.number_1 {
+      grid-column: span 3;
+      grid-row: span 2;
+    }
+
+    .white.number_2 {
+      grid-column: span 2;
+    }
+
+    .white.number_4 {
+      grid-row: span 2;
+    }
+
+    .grey.number_2 {
+      grid-row: span 4;
+    }
+
+    .grey.number_3 {
+      grid-row: span 2;
+    }
+
+    .grey.number_4 {
+      grid-row: span 5;
+    }
+
+    .grey.number_7{
+      grid-row: span 2;
+    }
+
+    .grey.number_8{
+      grid-column: span 2;
+    }
+
+    .grey.number_9{
+      grid-column: span 6;
+    }
+
+    .red.number_2 {
+      grid-row: span 2;
+    }
+
+    .red.number_3 {
+      grid-row: span 2;
+    }
+
+    .red.number_4 {
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+
+    div>div {
+      min-height: 10px;
+      min-width: 5px;
+    }
+
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+    <div class="container">
+      <div class="yellow number_1"></div>
+      <div class="red number_1"></div>
+      <div class="grey number_1"></div>
+      <div class="white number_1"></div>
+      <div class="grey number_2"></div>
+      <div class="red number_2"></div>
+      <div class="grey number_3"></div>
+      <div class="yellow number_2"></div>
+      <div class="grey number_4"></div>
+      <div class="blue number_1"></div>
+      <div class="black number_1"></div>
+      <div class="white number_2"></div>
+      <div class="black number_2"></div>
+      <div class="white number_3"></div>
+      <div class="red number_3"></div>
+      <div class="red number_4"></div>
+      <div class="white number_4"></div>
+      <div class="blue number_2"></div>
+      <div class="grey number_5"></div>
+      <div class="grey number_6"></div>
+      <div class="black number_3"></div>
+      <div class="grey number_7"></div>    
+      <div class="yellow number_3"></div>
+      <div class="grey number_8"></div>
+      <div class="grey number_9"></div>
+    </div>
+</body>
+
+</html>
